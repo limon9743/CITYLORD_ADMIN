@@ -1,0 +1,109 @@
+/* * {
+    box-sizing: border-box;
+  }
+  body {
+    height: 100%;
+      background-color: #222120;
+      background-image: url(https://cdn.wp.nginx.com/wp-content/themes/nginx-theme/assets/img/tiles/datalines-black.png);
+  
+  } */
+
+.users-nav-container {
+  width: 220px;
+  box-shadow: 1px 3px 3px 3px black;
+  transition: all 0.5s linear;
+  margin-left: 20px;
+}
+.icons-nav-contractor {
+  margin-right: 10px;
+  margin-left: -40px;
+}
+
+.nav-list-icon-text-container {
+  display: flex;
+  align-items: center;
+}
+.user-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.user-nav li {
+  height: 50px;
+  position: relative;
+  background: linear-gradient(#292929, #242424);
+}
+.user-nav a {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  /* border-bottom: 1px solid black; */
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  /* width: 100%; */
+  line-height: 50px;
+  color: #bbb;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 25%;
+  border-left: 5px solid transparent;
+  letter-spacing: 1px;
+  transition: all 0.3s linear;
+}
+.list-text {
+  transition: all 0.4s linear;
+}
+.user-nav li:hover .list-text {
+  margin-left: 20px;
+}
+.contarctor-nav-list-active a {
+  color: #9b59b6;
+  border-left: 5px solid #9b59b6;
+  /* background-color: #1b1b1b; */
+  outline: 0;
+}
+.user-nav li:not(.active):hover a {
+  color: #eee;
+  border-left: 5px solid #fcfcfc;
+  /* background-color: #1b1b1b; */
+}
+
+/* span[class^="icon"] {
+  position: absolute;
+  left: 20px;
+  font-size: 1.5em;
+  transition: all 0.3s linear;
+} */
+
+@media only screen and (max-width: 860px) {
+  .list-text {
+    display: none;
+  }
+  .icons-nav-contractor {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .users-nav-container,
+  .user-nav a {
+    width: 70px;
+  }
+  /* .user-nav a:hover {
+    width: 200px;
+    z-index: 1;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 1px 1px black;
+  } */
+  /* a:hover .list-text {
+    display: block;
+    padding-left: 30%;
+  } */
+}
+@media only screen and (max-width: 480px) {
+  .users-nav-container,
+  a {
+    width: 50px;
+  }
+  span[class^="icon"] {
+    left: 8px;
+  }
+}

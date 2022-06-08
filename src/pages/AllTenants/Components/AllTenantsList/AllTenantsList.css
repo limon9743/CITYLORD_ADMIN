@@ -1,0 +1,58 @@
+.all-properties-to-rent-div {
+  flex: 8;
+  margin: 10px;
+}
+
+.title-and-property-add-button-div {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.new-landlord-button {
+  width: 210px;
+  height: 40px;
+  border: none;
+  background-color: rgba(7, 173, 90, 0.603);
+  padding: 7px 10px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  /* margin-top: 30px; */
+  cursor: pointer;
+  /* margin-bottom: 20px; */
+  margin-right: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tenants-add-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 900px) {
+  .title-and-property-add-button-div > h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title-and-property-add-button-div > h1 {
+    font-size: 20px;
+  }
+  .new-landlord-button {
+    width: auto;
+    height: auto;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .title-and-property-add-button-div > h1 {
+    font-size: 15px;
+  }
+  .new-landlord-button {
+    width: max-content;
+    height: auto;
+    font-size: 10px;
+  }
+}

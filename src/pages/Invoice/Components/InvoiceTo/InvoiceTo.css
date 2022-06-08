@@ -1,0 +1,25 @@
+.invoice-to-main-container-div {
+  display: flex;
+
+  margin: 20px;
+  justify-content: space-between;
+}
+.client-name-and-address-div {
+  display: flex;
+  flex-direction: column;
+}
+.lebel-and-input-field-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.lebel-and-input-field-container > label {
+  margin-right: 15px;
+}
+
+.input-field {
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid #e6e2e2;
+}

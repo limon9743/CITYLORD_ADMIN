@@ -1,0 +1,5 @@
+.registered-viewing-list-main-div{
+    display: flex;
+    flex-direction: column;
+    flex:8;
+}

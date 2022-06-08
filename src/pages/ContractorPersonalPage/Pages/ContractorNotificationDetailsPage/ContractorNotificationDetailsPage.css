@@ -1,0 +1,8 @@
+.contractor-notification-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contractor-notification-details-siedbar-body-container {
+  display: flex;
+}

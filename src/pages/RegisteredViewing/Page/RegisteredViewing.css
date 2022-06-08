@@ -1,0 +1,5 @@
+.registered-viewing-page-main {
+  display: flex;
+  flex-direction: column;
+  flex: 8;
+}

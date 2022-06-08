@@ -1,0 +1,90 @@
+.form-with-property-brief-main-div {
+  display: flex;
+  flex-direction: column;
+  flex: 8;
+  margin: 20px;
+}
+
+.form-with-property-brief-main-div h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.view-form-main-div {
+  display: flex;
+  justify-content: center;
+  flex: 8;
+  margin-top: 20px;
+}
+
+.view-form-personal-info-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.view-form-property-info-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.view-form-viewing-info-div {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 20px; */
+}
+
+.view-form-input-field-with-title-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.view-form-input-field-with-title-div > label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.view-form-input-field-each {
+  height: 20px;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.view-form-textarea-field-each {
+  min-height: 100px;
+  max-width: 265px;
+  min-width: 265px;
+  border-radius: 5px;
+}
+.view-form-submit-button-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.contractor-checkbox-and-text-div {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.contractor-checkbox-input-div {
+  margin-left: 20px;
+  height: 13px;
+}
+
+.contractor-checkbox-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.view-form-viewing-info-div-2 {
+  margin-top: 20px;
+}

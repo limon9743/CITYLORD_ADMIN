@@ -1,0 +1,171 @@
+.newUser {
+  flex: 8;
+  margin-left: 10px;
+}
+
+.newUserForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.newUserItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.newUserGender > input {
+  margin-top: 15px;
+}
+
+.newUserGender > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.newUserSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.newUserButton {
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.input-field-each {
+  height: 20px;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.property-information-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-next-back-submit-button-container {
+  display: flex;
+  justify-content: flex-end;
+  /* justify-content: space-between; */
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.form-next-back-submit-button-each {
+  margin-right: 20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgba(7, 173, 90, 0.603);
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.checkbox-and-text-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+.checkbox-input-div {
+  margin-left: 20px;
+  width: 15px;
+  height: 15px;
+}
+
+.legal-requirements-div {
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 10px;
+}
+.radio-each-div {
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 10px;
+  /* margin-left: 10px; */
+  margin-bottom: 5px;
+}
+.radio-each-div > label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.radio-each-button {
+  margin-top: 10px;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.input-fields-labels-div {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.input-field-with-title-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.input-field-with-title-div > label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.input-field-with-title-div > span {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.personal-information-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.agreement-form-section-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* .legal-requirementes-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+} */

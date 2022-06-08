@@ -1,0 +1,12 @@
+.image-delete-button-style {
+  margin-left: 10px;
+  width: 50px;
+  height: 30px;
+}
+
+.image-viewer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}

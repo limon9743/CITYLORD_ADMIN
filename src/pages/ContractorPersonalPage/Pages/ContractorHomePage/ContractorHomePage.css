@@ -1,0 +1,8 @@
+.contractor-homepage-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contractor-homepage-siedbar-body-container {
+  display: flex;
+}

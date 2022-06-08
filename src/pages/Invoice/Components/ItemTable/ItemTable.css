@@ -1,0 +1,68 @@
+.table-row {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr 2fr;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.text-area-css {
+  min-height: 40px;
+  min-width: 210px;
+  max-width: 210px;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.item-table-heading {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr 2fr;
+  background-color: rgb(255, 217, 0);
+  margin: 0px 20px 0px 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.table-row-input-field {
+  width: 100px;
+  height: 30px;
+  margin-right: 5px;
+}
+.add-and-remove-icons-container {
+  display: grid;
+  grid-template-columns: 0.5fr 11.5fr;
+  margin-left: 20px;
+}
+
+.sub-total-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sub-total-input-field {
+  width: 200px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 217, 0);
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.add-note-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.add-note-div > label {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.add-note-and-total-div {
+  display: flex;
+  justify-content: space-between;
+}

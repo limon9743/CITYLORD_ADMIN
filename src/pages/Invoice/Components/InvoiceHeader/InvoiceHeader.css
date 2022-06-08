@@ -1,0 +1,24 @@
+.form-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  width: 150px;
+  height: 50.72px;
+  border-radius: 50%;
+  margin-left: -20px;
+}
+
+.invoice-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.company-name {
+  font-size: 20px;
+  font-weight: bold;
+}
